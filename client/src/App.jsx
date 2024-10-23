@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>MERN Render</h1>
+      <h1>PRUEBA DESPLIEGUE</h1>
 
       <button
         onClick={async () => {
@@ -18,7 +18,7 @@ function App() {
           setResult(data);
         }}
       >
-        Users
+        USUARIOS
       </button>
 
       <pre>{JSON.stringify(result, null, 2)}</pre>
